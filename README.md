@@ -1,2 +1,3 @@
-# crud_nodejs
-CRUD de produtos com login e cadastro de usuário
+# CRUD de produtos com login e cadastro de usuário
+
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
