@@ -49,7 +49,7 @@
 
 ![conn.js](./Screenshots/conn.png)
 
-* Se você não colocou senha no seu banco de dados, deixe então as aspas simples vazia ```''```.
+###### Se você não colocou senha no seu banco de dados, deixe então as aspas simples vazia ```''```.
 
 ![conn.js](./Screenshots/conn2.png)
 
