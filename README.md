@@ -2,12 +2,15 @@
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-#### É um CRUD de produtos feito com Node.js que permite adicionar, visualizar, atualizar e excluir produtos. Para ter acesso ao CRUD primeiro terá que cadastrar um usuário e depois fazer login com usuário cadastrado.
+#### É um CRUD de produtos feito com Node.js que permite adicionar, visualizar, atualizar e excluir produtos. 
 
 ## Funcionalidades do projeto
 
+#### Para ter acesso ao CRUD primeiro terá que cadastrar um usuário e depois fazer login com usuário cadastrado.
+
 ![cadastrar](./Screenshots/cadastrar.png)
 ![login](./Screenshots/login.png)
+
 ![crud](./Screenshots/crud.png)
 
 ## 🛠 Tecnologias e Ferramentas usadas na construção do projeto:
