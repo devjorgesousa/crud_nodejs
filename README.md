@@ -39,13 +39,13 @@
 
 ###### 3ª Instale as dependências.
 * npm install
-* 
+
 ###### 4ª Crie um banco de dados chamado: crud.
 * CREATE DATABASE crud;
 
 ![MariaDB](./Screenshots/mariadb.png)
 
-###### 5ª Vá para a pasta db e altere a senha e o usuário do banco de dados do arquivo conn.js.
+###### 5ª Acesse a pasta db e altere a senha e o usuário do banco de dados do arquivo conn.js.
 
 ![conn.js](./Screenshots/conn.png)
 
