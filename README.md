@@ -11,6 +11,7 @@
 - [Visual Studio Code](https://code.visualstudio.com/)
 
 - [Node.js](https://nodejs.org/en/)
+- [MariaDB](https://mariadb.org/)
 - Dependências do Projeto em NodeJS(package.json)  
 ```
 "dependencies": {
@@ -41,13 +42,22 @@
 
 ###### 4ª Vá para a pasta backend
 * cd db
-
-###### 5ª Altere a senha e o usuário do banco de dados do arquivo conn.js
-
-###### 6ª Crie um banco de dados chamado: crud
+ 
+###### 5ª Crie um banco de dados chamado: crud
 * CREATE DATABASE crud;
+
 ![MariaDB](./Screenshots/)
 
+###### 6ª Altere a senha e o usuário do banco de dados do arquivo conn.js
+
+![conn.js](./Screenshots/conn)
+
+<!--
+* Depos de ```'crud'``` que é o nome do banco de dados, dentro das aspas simples coloque o nome do usuário do seu banco, no caso do print está como root, usuário padrão que vem no banco de dados utilizado no projeto.
+* Na  ```'PASSWORD': ''``` dentro das aspas simples coloque o nome da senha do seu banco de dados, no caso do print foi colocado como root, por padrão o banco de dados vem sem senha.
+
+* Se você não colocou senha no seu banco de dados, deixe então as aspas simples vazia ```''```.
+-->
 
 ###### 7ª Execute a aplicação 
 * npm start
