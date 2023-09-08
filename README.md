@@ -46,7 +46,7 @@
 ###### 5ª Crie um banco de dados chamado: crud
 * CREATE DATABASE crud;
 
-![MariaDB](./Screenshots/)
+![MariaDB](./Screenshots/mariadb.png)
 
 ###### 6ª Altere a senha e o usuário do banco de dados do arquivo conn.js
 
