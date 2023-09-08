@@ -12,6 +12,7 @@
 ![login](./Screenshots/login.png)
 
 ![crud](./Screenshots/crud.png)
+![crud](./Screenshots/crud2.png)
 
 ## 🛠 Tecnologias e Ferramentas usadas na construção do projeto:
 
