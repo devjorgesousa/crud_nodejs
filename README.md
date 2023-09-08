@@ -6,6 +6,14 @@
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 
+- [Node.js](https://nodejs.org/en/)
+- Dependências do Projeto em NodeJS(package.json)  
+```
+"dependencies": {
+    
+  },
+```
+
 ## 🎲 Rodando o Projeto 
 
 ###### 1ª Clone este repositório
