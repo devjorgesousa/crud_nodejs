@@ -6,6 +6,10 @@
 
 ## Funcionalidades do projeto
 
+![cadastrar](./Screenshots/cadastrar.png)
+![login](./Screenshots/login.png)
+![crud](./Screenshots/crud.png)
+
 ## 🛠 Tecnologias e Ferramentas usadas na construção do projeto:
 
 - [Visual Studio Code](https://code.visualstudio.com/)
@@ -77,6 +81,5 @@ O responsável por receber todas as requisições do usuário. Seus métodos cha
 
 View: Fala Controller ! O usuário acabou de pedir para acessar o Facebook ! Pega os dados de login dele ai. Controller: Blz. Já te mando a resposta. Ai model, meu parceiro, toma esses dados de login e verifica se ele loga. Model: Os dados são válidos. Mandando a resposta de login. Controller: Blz. View, o usuário informou os dados corretos. Vou mandar pra você os dados dele e você carrega a página de perfil. View: Vlw. Mostrando ao usuário…
 
-Fonte de pesquisa: https://tableless.com.br/mvc-afinal-e-o-que/
-
+Fonte de pesquisa: [https://tableless.com.br/mvc-afinal-e-o-que/](https://tableless.com.br/mvc-afinal-e-o-que/)
 
