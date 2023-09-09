@@ -12,13 +12,13 @@
 ![login](./Screenshots/login.png)
 ![crud](./Screenshots/crud.png)
 
-#### Cada usuário terá acesso apenas aos produtos que ele mesmo cadastrou. 
+#### Cada usuário terá acesso apenas aos produtos que ele mesmo cadastrou: 
 
-* O usuário Michael não terá acesso aos produtos do usuário Jorge:
+* O usuário Michael não terá acesso aos produtos do usuário Jorge.
 
 ![crud](./Screenshots/crud2.png)
 
-* O usuário Jorge não terá acesso aos produtos do usuário Michael:
+* O usuário Jorge não terá acesso aos produtos do usuário Michael.
 
 ![crud](./Screenshots/crud3.png)
 
