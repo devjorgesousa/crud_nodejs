@@ -12,7 +12,7 @@
 ![login](./Screenshots/login.png)
 ![crud](./Screenshots/crud.png)
 
-#### Para fazer o logout, clique no nome do usuário e em seguida clique em sair.
+#### Para sair da conta, clique no nome do usuário e em seguida clique em sair.
 
 ![logout](./Screenshots/logout.png)
 ![logout](./Screenshots/logout2.png)
