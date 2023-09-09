@@ -15,6 +15,7 @@
 #### Para fazer o logout, clique no nome do usuário e em seguida clique em sair.
 
 ![logout](./Screenshots/logout.png)
+![logout](./Screenshots/logout2.png)
 
 #### Cada usuário terá acesso apenas aos produtos que ele mesmo cadastrou: 
 
