@@ -12,6 +12,10 @@
 ![login](./Screenshots/login.png)
 ![crud](./Screenshots/crud.png)
 
+#### Para fazer o logout, clique no nome do usuário e em seguida clique em sair.
+
+![logout](./Screenshots/logout.png)
+
 #### Cada usuário terá acesso apenas aos produtos que ele mesmo cadastrou: 
 
 * O usuário Michael não terá acesso aos produtos do usuário Jorge.
