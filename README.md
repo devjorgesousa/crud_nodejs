@@ -1,7 +1,5 @@
 # CRUD de produtos com login e cadastro de usuário
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-
 #### É um CRUD de produtos feito com Node.js que permite adicionar, visualizar, atualizar e excluir produtos. 
 
 ## Funcionalidades do projeto
@@ -55,8 +53,8 @@
 ###### 1ª Clone este repositório
 * git clone https://github.com/devjorgesousa/crud_nodejs.git
 
-###### 2ª Acesse a pasta do projeto no terminal/cmd ou Visual Studio Code, após descompactar o arquivo crud_nodejs.zip.
-* cd crud_nodejs
+###### 2ª Acesse a pasta do projeto no terminal/cmd ou Visual Studio Code, após descompactar o arquivo crud_nodejs-main.zip.
+* cd crud_nodejs-main
 
 ###### 3ª Instale as dependências.
 * npm install
