@@ -1,0 +1,96 @@
+<h1>Produtos</h1>
+
+<h6>Adicionar Produto</h6>
+
+<form action="/adicionar" method="POST" enctype="multipart/form-data">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Preço</th>
+                <th scope="col">Foto do Produto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <input type="text" name="nome" class="form-control">
+                </td>
+                <td>
+                    <input type="number" name="preco" class="form-control">
+                </td>
+                <td>
+                    <input type="file" name="produtoImagem" class="form-control">
+                </td>
+                <td>
+                    <button type="submit" class="btn btn-primary">Adicionar Produto</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+
+<h6>Atualizar Produto</h6>
+
+<form action="/editar" method="POST" enctype="multipart/form-data">
+    <input type="hidden" name="id" value={{produto.id}}>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Preço</th>
+                <th scope="col">Foto do Produto</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <input type="text" name="nome" class="form-control" value="{{produto.nome}}">
+                </td>
+                <td>
+                    <input type="number" name="preco" class="form-control" value="{{produto.preco}}">
+                </td>
+                <td>
+                    <input type="file" name="produtoImagem" class="form-control" value="{{produto.produtoImagem}}">
+                </td>
+                <td>
+                    <button type="submit" class="btn btn-success">Editar Produto</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Nome</th>
+      <th scope="col">Preço</th>
+      <th scope="col">Foto do Produto</th>
+      <th scope="col">Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each produtos}}
+    <tr>
+      <th>{{this.id}}</th>
+      <td>{{this.nome}}</td>
+      <td>R$ {{this.preco}}</td>
+      <td>
+        <img src="./img/produtos/{{this.produtoImagem}}" onMouseOver="aumenta(this)" onMouseOut="diminui(this)" class="img-fluid rounded" width="100px" alt="Foto do Produto" />
+      </td>
+      <td>
+          <div class="btn-group">
+            <a href="/editar/{{this.id}}" class="btn btn-success">Editar</a>
+            <form action="/excluir" method="POST">
+              <input type="hidden" name="id" value="{{this.id}}">
+              <button type="submit" class="btn btn-danger">Excluir</button>
+            </form>
+          </div>
+      </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>

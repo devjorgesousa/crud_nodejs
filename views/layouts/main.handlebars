@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+<body>
+  <nav class="navbar bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/crud">CRUD</a>
+      <ul class="nav justify-content-end">
+        {{#if session.usuarioid}} 
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          {{{usuarios}}}
+          </a> 
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="/logout">Sair</a></li>
+          </ul>
+        </li>
+        {{else}}
+        <li class="nav-item">
+          <a class="nav-link link-dark" href="/">Entrar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link-dark" href="/cadastrar">Cadastrar</a>
+        </li>
+        {{/if}}
+      </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div>
+    {{#if messages.mensagem }}
+      <div class="mensagem">
+        {{messages.mensagem}}
+      </div>
+    {{/if}}
+  </div>
+
+  {{{ body }}}
+
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <span class="text-muted">&copy; 2023 CRUD</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/script.js"></script>
+</body>
+</html>
