@@ -1,0 +1,47 @@
+h1 {
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+}
+
+.auth-container {
+  max-width: 450px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container h2 {
+  margin-bottom: 1em;
+  color: #fff;
+  border-left: 4px solid #004085;
+  padding: 0.3em;
+  width: 100px;
+}
+
+.auth-container a {
+  color: #004085;
+}
+
+.mensagem {
+  padding: 1em;
+  color: #004085;
+  background-color: #cce5ff;
+  border: 1px soli d#b8daff;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto 2em;
+  max-width: 60%;
+}
+
+h3 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+
