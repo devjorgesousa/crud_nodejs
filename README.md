@@ -1,5 +1,3 @@
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
-
 # CRUD de produtos com login e cadastro de usuário
 
 #### É um CRUD de produtos feito com Node.js que permite adicionar, visualizar, atualizar e excluir produtos. 
